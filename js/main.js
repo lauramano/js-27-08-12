@@ -13,11 +13,14 @@ import skAvg from './modules/avg.js';
 // importuoti numatytaji 
  import sayHiCia from './modules/sayHi.js';
 
+ import {displayAfterH1} from './modules/htmlDisplay.js';
+
 const rez1 = addNums(n1, n2);
 const minusRez = minusNums (15, 25);
 const skAvg1 = skAvg(arr);
 
 console.log('Sudeties rezultatas: ', rez1);
+displayAfterH1(rez1);
 console.log('atimties rezultatas: ', minusRez);
 console.log('gautas masyvas is variables.js = ', arr);
 console.log('gautas vidurkis', skAvg1.toFixed(2) );
